@@ -98,6 +98,7 @@ class Wave:
 
     def update_pos(self, t):
         for i, (x, y) in enumerate(self.dots):
+            # y(x,t) = A*sin(wt - kx)
             new_y = self.amplitude * math.sin(
                 (2 * math.pi * self.frequency * (t / 1000)) - (x * 2 * math.pi / self.wave_lambda))
             self.dots[i][1] = new_y
