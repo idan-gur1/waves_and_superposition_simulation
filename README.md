@@ -22,4 +22,5 @@ Make sure you have Python installed on your system before running the above comm
 https://github.com/idan-gur1/waves-and-superposition-simulation/assets/100964505/99378ba7-9202-4ff9-83b0-1439bfd5561d
 
 <br>
+
 **Note:** Only two waves were shown in the demo, in the full simulation there could be an indefinite amount of waves.
